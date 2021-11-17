@@ -1,0 +1,48 @@
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    background-image: url('https://lh3.googleusercontent.com/proxy/ZUaoTX8rFzvwhMDx_ECjL9aXZbBlNZxWMJcZi9_fOxgfN0aLOHlyY8OMesZf2e_6M_BTFU3TXkMXD0w');
+    height: 100%; 
+    /* opacity: 0.3; */
+
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax1 {
+    background-image: url('image1.jpg');
+    height: 100%; 
+    /* opacity: 0.4; */
+
+    background-attachment: fixed;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url('image2.jpg');
+    height: 100%; 
+    opacity: 0.1;
+
+    background-attachment: fixed;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+.parallax3 {
+    background-image: url('image3.jpg');
+    height: 100%; 
+    opacity: 0.9;
+
+    background-attachment: fixed;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
